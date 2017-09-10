@@ -1,0 +1,449 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *
+ *= require jquery-ui
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.introblack {
+  color: black;
+}
+
+.introwhite {
+  height: 100vh;
+}
+
+.console {
+  color: #00FF00;
+}
+
+.start {
+    font-size: 1.8rem;
+    font-style: normal;
+    text-transform: none;
+}
+
+.navbar-brand {
+  height: 70px;
+  width: 70px;
+  filter: drop-shadow(1px 2px white);
+}
+
+.navbar-brand:hover {
+   text-decoration: none;
+   color: #7e7f7d;
+
+ }
+
+ .nav-item a:link {
+   text-shadow: 1px 1px 1px black;
+   font-size: small;
+   color: #00fa00;
+
+  }
+ .nav-item a:visited {
+   text-shadow: 1px 1px 1px black;
+   text-decoration: none;
+   font-size: small;
+   color: #00fa00;
+ }
+
+ a.nav-link {
+   padding: 0px 20px;
+   word-wrap: normal;
+   display: inline-block;
+ }
+
+ /*@media (min-width: 992px) {
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+ }*/
+ /*}*/
+ .nav-item a {
+   color: white;
+   letter-spacing: 8px;
+ }
+
+ .bgn {
+   background:transparent;
+   background-image:none;
+   border-color:transparent;
+   box-shadow:none;
+ }
+
+ .gradhome {
+  position: absolute;
+  background-size: cover;
+  background: black;
+}
+
+.tattoo {
+    width: 50%;
+    height: 100vh;
+}
+
+
+.gradabout {
+  position: absolute;
+  height: 100vh;
+  background-size: cover;
+  background: linear-gradient(
+    -90deg
+    , black 0%
+    , black 50%
+    , white 50%
+    , white 100%
+  );
+}
+
+.gradstudy {
+  position: absolute;
+  height: 100vh;
+  background-size: cover;
+  background: linear-gradient(
+    90deg
+    , black 0%
+    , black 50%
+    , white 50%
+    , white 100%
+  );
+}
+
+.gradcontact {
+  background-color: whitesmoke;
+
+}
+
+.box {
+  width: 700px;
+  height: 90vh;
+  background: linear-gradient(
+    90deg
+    , black 0%
+    , black 50%
+    , #e6e6e6 50%
+    , #e6e6e6 100%
+  );
+  margin: 0 auto;
+}
+
+#row {
+  height: 100%
+
+}
+
+.white {
+  color: white;
+}
+
+hr {
+  height: 2px;
+  width: 60px;
+  background-color: #00fa00;
+}
+
+.study {
+  width: 100%;
+  text-align: center;
+}
+
+.study img {
+    width: 125%;
+    height: 90vh;
+    margin-top: -20px;
+    margin-left: -15px;
+}
+
+.albums {
+  width: 700px;
+  height: 90vh;
+  background: linear-gradient(
+    -90deg
+    , black 0%
+    , black 50%
+    , white 50%
+    , white 100%
+  );
+  margin: 30px auto;
+}
+
+.albums h3 {
+  letter-spacing: 4px;
+  font-size: 1rem;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 30px;
+  color: #7e7f7d;
+  text-shadow: 1px 1px 1px black;
+}
+
+.row {
+  margin: 30px auto 0 auto;
+  max-width: 90%;
+}
+
+.col {
+  height: 200px;
+  margin: 20px auto;
+}
+.col i {
+  font-size: 7rem;
+}
+
+html,body{
+  height:100%;
+}
+
+.section {
+    /* the important one*/
+    background-attachment: fixed;
+
+    /*background-size: auto 80%;*/
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+.page {
+  height: 1200px;
+  background-color: #f5f5f5;
+}
+
+#section4 .content {
+    top: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#pp-nav li .active span, .pp-slidesNav .active span {
+    background: #00fa00;
+}
+#pp-nav span, .pp-slidesNav span {
+    border-color: #bbb !important;
+}
+
+.intro {
+    position: absolute;
+    /*text-align: center;*/
+    width: 100%;
+}
+.intro h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+}
+
+.left {
+  color: white;
+  margin-right: 25%;
+}
+
+/* Styling our last section, our content */
+#section4 .intro {
+    color: #000;
+}
+.header {
+    padding-top: 80px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+}
+.header p {
+    color: #f2f2f2;
+    font-size: 1.7em;
+}
+
+.jumbotron {
+  height: 500px;
+  background-color: black
+
+}
+
+@media (min-width: 1297px){
+.mosaic {
+    width: 1280px;
+}
+}
+
+@media (max-width: 1296px) and (min-width: 977px)
+{
+.mosaic {
+    width: 960px;
+}
+}
+
+.mosaic {
+  margin: -210px auto 0 auto;
+}
+
+.grid-item.black.grid-item--height2 {
+    background-color: black;
+    border-color: white;
+}
+
+.egg {
+  margin: 30px auto;
+}
+
+.egg:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.grid-item h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.grid-item h4 {
+    display: flex;
+    margin-top: 160px;
+    margin-left: 60px;
+    font-size: smaller;
+    color: #00fa00;
+}
+
+.grid {
+  align-content: center;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 320px;
+}
+
+.grid-item {
+  height: 320px;
+  float: left;
+  background: white;
+  border: 1px solid;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+/* 2 columns */
+.grid-item--width2 { width: 640px; }
+/* 2 columns */
+/*.grid-item--width3 { width:  60%; }*/
+
+.grid-item--height2 { height: 480px; }
+/*.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }*/
+
+.grid-item img {
+  width: 100%;
+}
+
+
+footer, section {
+    display: block;
+}
+
+.pfblock {
+    padding: 80px 0 100px;
+}
+
+.pfblock-header {
+    text-align: center;
+    margin: 0 0 40px;
+}
+.pfblock-title {
+    font-weight: 800;
+}
+
+.pfblock-line {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+.pfblock-subtitle {
+    font-style: normal;
+    font-size: 18px;
+}
+#contact {
+  height: 80vh;
+}
+#rowh {
+  height: 100%;
+}
+
+#footer {
+    background: #222;
+    text-align: center;
+    padding: 40px 0;
+    color: #FFF;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+}
+
+.social ul {
+  margin: 0;
+  padding: 5px;
+}
+
+.social ul li {
+  margin: 5px;
+  list-style: none outside none;
+  display: inline-block;
+}
+
+.social i {
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  background-color: #909AA0;
+  font-size: 22px;
+  text-align:center;
+  padding-top: 12px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+  color: #FFF;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
