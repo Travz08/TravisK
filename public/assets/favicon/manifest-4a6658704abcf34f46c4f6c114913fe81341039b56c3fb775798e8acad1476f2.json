@@ -1,0 +1,18 @@
+{
+    "name": "travisk",
+    "icons": [
+        {
+            "src": "/assets/favicon/android-chrome-192x192-8b7d40dfec5cf14e81fcd8ec356ff0dc28ba9b91759f37e2e564bf68b1b12156.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicon/android-chrome-384x384-7eaed260de5d2383ad587bd243a9ddf10001c57a9a2662aac899be19d123aef3.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
